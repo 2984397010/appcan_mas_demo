@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>snp_demo_stub</title>
+    </head>
+    <style>
+        ul li {
+            padding: 15px;
+            font-weight: 800;
+            font-size: 18px;
+            border: 1px solid #F0F0F0;
+        }
+        .bor {
+            border: 3px solid #999999;
+            padding: 5px;
+            margin: 5px;
+        }
+    </style>
+    <body>
+        <h3>snp_demo_stub</h3>
+        <ul>
+            <!-------------------------------------------------------登录------------------------------------------------------------>
+            <li>
+                <a href="/meeting_stub/login?accountName=101" target="_blank">登陆成功</a>
+                |
+                <a href="/meeting_stub/login?accountName=103" target="_blank">登陆失败</a>
+            </li>
+            
+             <li>
+                <a href="/meeting_stub/qryMeeting/all?pageNum=1" target="_blank">会议列表</a>
+              
+            </li>
+            <li>
+                <a href="/meeting_stub/validform/custNameVaild?param=1" target="_blank">表单异步验证用户名不存在</a>
+              |
+                <a href="/meeting_stub/validform/custNameVaild?param=101" target="_blank">表单异步验证用户名存在</a>
+
+            </li>
+        </ul>   
+    </body>
+</html>

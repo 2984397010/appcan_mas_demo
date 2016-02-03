@@ -1,0 +1,41 @@
+{
+    "status": 0,
+    "data": {
+        "pageSize": 5,
+        "totalNum": 8,
+        "currentPage": 1,
+        "hasMore": true,
+        "list": [
+            {
+                "id": "1",
+                "name": "部门会议1",
+                "date": "2015-12-11",
+                "image": "meeting_list_content/css/myImg/goods1.png"
+            },
+            {
+                "id": "2",
+                "name": "云计划会谈",
+                "date": "2015-01-11",
+                "image": "meeting_list_content/css/myImg/goods1.png"
+            },
+            {
+                "id": "3",
+                "name": "云计划会谈3",
+                "date": "2015-01-11",
+                "image": "meeting_list_content/css/myImg/goods1.png"
+            },
+            {
+                "id": "4",
+                "name": "云计划会谈4",
+                "date": "2015-01-11",
+                "image": "meeting_list_content/css/myImg/goods1.png"
+            },
+            {
+                "id": "5",
+                "name": "云计划会谈5",
+                "date": "2015-01-11",
+                "image": "meeting_list_content/css/myImg/goods1.png"
+            }
+        ]
+    }
+}

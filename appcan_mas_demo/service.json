@@ -1,0 +1,24 @@
+{
+	"meap" : {
+		"service" : {
+			"port" : "9998",
+			"projects" : [
+				"meeting_stub"
+			],
+			"certificate" : {
+				"cert" : "CA/",
+				"key" : "CA/"
+			},
+			"name" : "",
+			"secure" : false,
+			"auth" : {
+				"ca" : "CA/",
+				"type" : "ssl"
+			},
+			"timeout" : "60",
+			"protocal" : "HTTP"
+		},
+		"tmpdir" : "c:/tmp",
+		"datasource" : [ ]
+	}
+}
